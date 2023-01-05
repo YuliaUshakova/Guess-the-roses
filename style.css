@@ -1,0 +1,68 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-color: black;
+}
+.heading{
+    position: absolute;
+    left: 25%;
+    background-color: rgb(240, 240, 240);
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 30%;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+.container{
+    position: absolute;
+    left: 25%;
+    background-color: rgb(240, 240, 240);
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 30%;
+    padding: 20px;
+    margin-top: 200px;
+    }
+h3, .heading{
+    font-family: 'Dancing Script', cursive;
+    color: red;
+    font-size: 20px;
+}
+#guess{
+    padding: 10px;
+    width: 40%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    border: none;
+}
+#btn{
+    background-color: red;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+@media all and (max-width: 800px){
+    #guess{
+        width: 80px;
+        padding: 5px;
+        font-size: 20px;
+    }
+  .container, .heading{
+    width: 50%;
+  }
+}
+@media all and (max-width: 500px){
+    #guess{
+        width: 150px;
+        padding: 5px;
+        font-size: 20px;
+    }
+}
